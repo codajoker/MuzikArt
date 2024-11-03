@@ -19,6 +19,7 @@
   width: 100%;
   margin-top: 29px;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .header-nav {
@@ -49,6 +50,13 @@
 
 .menu {
   display: none;
+}
+
+.header-address-container:hover,
+.header-address-container:focus {
+  background-color: #25312f;
+  border: 1px solid #ffffff;
+  fill: var(--white);
 }
 
 .header-address {
@@ -124,6 +132,30 @@
   color: var(--white);
   font-weight: 400;
   text-align: center;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.modal-menu-link::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: white;
+  border-radius: 2px;
+  height: 1px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.modal-menu-link:hover::after {
+  transform: scaleX(1);
+}
+
+.modal-menu-link:hover,
+.modal-menu-link:focus {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .modal-social-media-container {
@@ -157,10 +189,8 @@
   justify-content: center;
   width: 36px;
   height: 36px;
-}
-
-.modal-social-media-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 0.3s ease, border 0.3s ease;
+  border: 1px solid transparent;
 }
 
 .modal-social-media-link:hover,
@@ -207,7 +237,31 @@
 
   .menu-link {
     color: white;
+    position: relative;
     margin: 0;
+    transition: color 0.3s ease;
+  }
+
+  .menu-link::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: white;
+    border-radius: 2px;
+    height: 1px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .menu-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: rgba(255, 255, 255, 0.7);
   }
 
   .header-address-container {
@@ -218,6 +272,8 @@
     margin-top: 0;
     background-color: var(--darkgreen);
     border-radius: 8px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    border: 1px solid transparent;
   }
 
   .header-address {

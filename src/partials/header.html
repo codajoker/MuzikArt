@@ -9,13 +9,13 @@
       </a>
       <ul class="menu">
         <li class="menu-item">
-          <a href="#" class="menu-link">ABOUT US</a>
+          <a href="#aboutus" class="menu-link">ABOUT US</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">CATALOG</a>
+          <a href="#catalog" class="menu-link">CATALOG</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">SALE</a>
+          <a href="#sale" class="menu-link">SALE</a>
         </li>
       </ul>
     </nav>
@@ -51,13 +51,13 @@
   <div class="modal-menu-container">
     <ul class="modal-menu">
       <li class="modal-menu-item">
-        <a href="#" class="modal-menu-link">ABOUT US</a>
+        <a href="#aboutus" class="modal-menu-link">ABOUT US</a>
       </li>
       <li class="modal-menu-item">
-        <a href="#" class="modal-menu-link">CATALOG</a>
+        <a href="#catalog" class="modal-menu-link">CATALOG</a>
       </li>
       <li class="modal-menu-item">
-        <a href="#" class="modal-menu-link">SALE</a>
+        <a href="#sale" class="modal-menu-link">SALE</a>
       </li>
     </ul>
   </div>
@@ -65,28 +65,41 @@
     <h1 class="modal-social-media-title">Social Media</h1>
     <ul class="modal-social-media">
       <li class="social-media-icon">
-        <a href="#" class="modal-social-media-link"
+        <a
+          href="https://www.twitter.com/"
+          target="_blank"
+          class="modal-social-media-link"
           ><svg class="icon-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-twitter" />
           </svg>
         </a>
       </li>
       <li class="social-media-icon">
-        <a href="#" class="modal-social-media-link"
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="modal-social-media-link"
           ><svg class="icon-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-facebook" />
           </svg>
         </a>
       </li>
       <li class="social-media-icon">
-        <a href="#" class="modal-social-media-link">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="modal-social-media-link"
+        >
           <svg class="icon-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-instagram" />
           </svg>
         </a>
       </li>
       <li class="social-media-icon">
-        <a href="#" class="modal-social-media-link"
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="modal-social-media-link"
           ><svg class="icon-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-youtube" />
           </svg>
@@ -113,6 +126,11 @@
     }
 
     toggleMenu();
+  });
+
+  const menuLinks = document.querySelectorAll('.modal-menu-link');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', toggleMenu);
   });
 
   function toggleMenu() {

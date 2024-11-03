@@ -27,6 +27,7 @@
   width: 266px;
   border-radius: 10px;
   overflow: hidden;
+  user-select: none;
 }
 
 .swiper-slide {
@@ -79,10 +80,6 @@
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: 0;
-}
-
-.hero-img img {
-  border-radius: 10px;
 }
 
 .swiper-counter {

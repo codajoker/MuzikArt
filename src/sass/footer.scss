@@ -75,7 +75,7 @@
 }
 
 .footer-links a:hover {
-  color: #007aff;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-right {
@@ -123,10 +123,20 @@
 .contacts-link-footer-link {
   line-height: 5;
   color: #fff;
+  transition: color 0.3s ease;
+}
+
+.contacts-link-footer-link:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .contacts-link-footer-adr-link {
   color: #fff;
+  transition: color 0.3s ease;
+}
+
+.contacts-link-footer-adr-link:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 768px) {
