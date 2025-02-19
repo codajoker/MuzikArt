@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Muzik Art Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#"><img src="./images/main-logo.png" alt="main-logo" /></a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#music" class="nav-link">Music sessions</a>
+          </li>
+          <li class="nav-item">
+            <a href="#art" class="nav-link">Art sessions</a>
+          </li>
+          <li class="nav-item">
+            <a href="#price" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button class="text-white header-btn">
+          TRIAL SESSION
+          <svg
+            width="12"
+            height="10"
+            viewBox="0 0 12 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_299_538)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 5C0 4.81059 0.079009 4.62895 0.219646 4.49502C0.360282 4.36109 0.551026 4.28584 0.749916 4.28584H9.43845L6.21831 1.22068C6.07749 1.08658 5.99838 0.904705 5.99838 0.715059C5.99838 0.525414 6.07749 0.343536 6.21831 0.209436C6.35912 0.0753365 6.5501 0 6.74925 0C6.94839 0 7.13937 0.0753365 7.28019 0.209436L11.7797 4.49438C11.8495 4.56072 11.9049 4.63952 11.9427 4.72629C11.9805 4.81305 12 4.90606 12 5C12 5.09394 11.9805 5.18695 11.9427 5.27371C11.9049 5.36048 11.8495 5.43928 11.7797 5.50562L7.28019 9.79056C7.13937 9.92466 6.94839 10 6.74925 10C6.5501 10 6.35912 9.92466 6.21831 9.79056C6.07749 9.65646 5.99838 9.47459 5.99838 9.28494C5.99838 9.0953 6.07749 8.91342 6.21831 8.77932L9.43845 5.71416H0.749916C0.551026 5.71416 0.360282 5.63892 0.219646 5.50499C0.079009 5.37106 0 5.18941 0 5Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_299_538">
+                <rect width="12" height="10" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <button class="mobile-menu-Btn js-open-menu">
+          <svg width="18" height="12">
+            <use
+              xlink:href="./images/sprite.svg#icon-header-burger-svg"
+              class="burger-svg"
+            ></use>
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-container">
+          <div class="hero-box">
+            <h5 class="heading-h5 text-accent">Welcome</h5>
+            <h1 class="heading-h1 text-white">Best Learning Opportunities</h1>
+            <h4 class="heading-h4 text-white">
+              Every day brings with it a fresh set of learning possibilities.
+            </h4>
+            <div class="btnContainer">
+              <button class="sessionBtn text-white btn-text">
+                BOOK SESSION
+              </button>
+              <button class="seeMoreBtn text-accent btn-text">SEE MORE</button>
+            </div>
+          </div>
+          <svg class="hero-svg-1">
+            <use
+              xlink:href="./images/sprite.svg#icon-hero-svg-1"
+              class="hero-svg-1"
+            ></use>
+          </svg>
+          <svg class="hero-svg-2">
+            <use xlink:href="./images/sprite.svg#icon-hero-svg-2"></use>
+          </svg>
+          <svg class="hero-svg-3">
+            <use xlink:href="./images/sprite.svg#icon-hero-svg-3"></use>
+          </svg>
+          <svg class="hero-svg-4">
+            <use xlink:href="./images/sprite.svg#icon-hero-svg-4"></use>
+          </svg>
+          <img
+            src="images/photo1.JPG"
+            alt="hero-cover"
+            class="hero-cover-img"
+          />
+        </div>
+      </section>
+      <!-- <section class="stats">
+        <ul class="stats-list">
+          <li class="stats-item">
+            <p class="text-white text-metrics">15K</p>
+            <p class="text-black text-metrics-title">Happy Customers</p>
+          </li>
+          <li class="stats-item">
+            <p class="text-white text-metrics">150K</p>
+            <p class="text-black text-metrics-title">Monthly Visitors</p>
+          </li>
+          <li class="stats-item">
+            <p class="text-white text-metrics">15</p>
+            <p class="text-black text-metrics-title">Countries Worldwide</p>
+          </li>
+          <li class="stats-item">
+            <p class="text-white text-metrics">100+</p>
+            <p class="text-black text-metrics-title">Top Partners</p>
+          </li>
+        </ul>
+      </section> -->
+      <section class="offer">
+        <div class="offer-container">
+          <h2 class="offer-title text-accent">WE OFFER</h2>
+          <ul class="offer-list">
+            <li class="offer-item text-black">
+              <div class="offer-point"></div>
+              ART STUDIO
+            </li>
+            <li class="offer-item text-black">
+              <div class="offer-point"></div>
+              MUSIC SESSIONS
+            </li>
+            <li class="offer-item text-black">
+              <div class="offer-point"></div>
+              REHEARSAL SPACE
+            </li>
+          </ul>
+          <!-- <img src="./images/offer-bkg.png" alt="main-logo" class="offer-img" /> -->
+
+          <video
+            width="345"
+            height="225"
+            class="offer-img"
+            controls
+            autoplay
+            loop
+            muted
+          >
+            <source src="./images/video2.mp4" type="video/mp4" />
+            Ваш браузер не поддерживает видео.
+          </video>
+
+          <img
+            src="./images/offer-bkg1.png"
+            alt="main-logo"
+            class="offer-img1"
+          />
+
+          <svg
+            class="svg-2"
+            width="300"
+            height="300"
+            viewBox="0 0 300 300"
+            xmlns="http://www.w3.org/2000/svg"
+          ></svg>
+
+          <svg
+            width="266"
+            height="169"
+            viewBox="0 0 266 169"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg-1"
+          >
+            <path
+              d="M265.5 10.7522C14.5 -46.7475 1 168.794 1 168.794"
+              stroke="black"
+            />
+          </svg>
+        </div>
+      </section>
+      <section class="tutors">
+        <div class="tutors-container">
+          <div class="data-container">
+            <div class="tutor-line"></div>
+            <h2 class="tutors-title text-white">Our Experts Tutors</h2>
+            <p class="tutor-text text-white">
+              Time spent in our studio is fun, creative, and productive!
+            </p>
+            <button class="tutor-btn text-white">
+              TRIAL SESSION
+              <svg
+                width="12"
+                height="10"
+                viewBox="0 0 12 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_299_538)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 5C0 4.81059 0.079009 4.62895 0.219646 4.49502C0.360282 4.36109 0.551026 4.28584 0.749916 4.28584H9.43845L6.21831 1.22068C6.07749 1.08658 5.99838 0.904705 5.99838 0.715059C5.99838 0.525414 6.07749 0.343536 6.21831 0.209436C6.35912 0.0753365 6.5501 0 6.74925 0C6.94839 0 7.13937 0.0753365 7.28019 0.209436L11.7797 4.49438C11.8495 4.56072 11.9049 4.63952 11.9427 4.72629C11.9805 4.81305 12 4.90606 12 5C12 5.09394 11.9805 5.18695 11.9427 5.27371C11.9049 5.36048 11.8495 5.43928 11.7797 5.50562L7.28019 9.79056C7.13937 9.92466 6.94839 10 6.74925 10C6.5501 10 6.35912 9.92466 6.21831 9.79056C6.07749 9.65646 5.99838 9.47459 5.99838 9.28494C5.99838 9.0953 6.07749 8.91342 6.21831 8.77932L9.43845 5.71416H0.749916C0.551026 5.71416 0.360282 5.63892 0.219646 5.50499C0.079009 5.37106 0 5.18941 0 5Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_299_538">
+                    <rect width="12" height="10" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div class="video-container">
+            <!-- <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EG16dFYK0gw"
+              title="YouTube video player"
+              frameborder="1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe> -->
+
+            <video controls autoplay loop muted class="video4">
+              <source src="./images/video4.mp4" type="video/mp4" />
+              Ваш браузер не поддерживает видео.
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="art" id="art">
+        <div class="art-conteiner">
+          <div class="art-text-container">
+            <h2 class="art-title text-accent">ART Sessions</h2>
+            <p class="art-subTitleText text-black">
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+          <div class="art-priceContainer">
+            <div>
+              <div class="art-box">
+                <img
+                  src="./images/photo7.JPG"
+                  alt="user-photo"
+                  class="art-img"
+                />
+                <p class="art-text text-white">DIGITAL DRAWNING</p>
+              </div>
+              <div class="art-bnt-group">
+                <button class="art-btn">INDIVIDUAL</button>
+                <div class="induvidual-cost-box">
+                  <div class="art-lesson-cost-box">
+                    <p class="costs-text text-black">35€</p>
+                    <p class="time-text text-black">(45MIN)</p>
+                  </div>
+                  <div class="art-lesson-cost-box">
+                    <p class="costs-text text-black">40€</p>
+                    <p class="time-text text-black">(60MIN)</p>
+                  </div>
+                </div>
+                <button class="art-btn">GROUP</button>
+                <div class="art-lesson-cost-box">
+                  <p class="costs-text text-black">15€ (PER PERSON)</p>
+                  <p class="time-text text-black">(60MIN)</p>
+                </div>
+                <button class="art-btn free">FREE SESSION</button>
+              </div>
+            </div>
+            <div class="black-box">
+              <img src="./images/photo9.JPG" alt="img9" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="music" id="music">
+        <div class="music-container">
+          <h2 class="music-title text-white">MUSIC SESSIONS</h2>
+          <div class="instument-box box1">
+            <div class="music-ball">
+              <img src="./images/photo2.JPG" alt="img2" />
+            </div>
+            <p class="music-text text-white">VOCAL</p>
+          </div>
+          <div class="instument-box box2">
+            <div class="music-ball">
+              <img src="./images/photo3.JPG" alt="img3" />
+            </div>
+            <p class="music-text text-white">GUITAR</p>
+          </div>
+          <div class="instument-box box3">
+            <div class="music-ball">
+              <img src="./images/photo4.JPG" alt="img4" />
+            </div>
+            <p class="music-text text-white">PIANO</p>
+          </div>
+          <div class="instument-box box4">
+            <div class="music-ball">
+              <img src="./images/photo5.JPG" alt="img5" />
+            </div>
+            <p class="music-text text-white">UKULELE</p>
+          </div>
+          <div class="instument-box box5">
+            <div class="music-ball">
+              <img src="./images/photo6.JPG" alt="img6" />
+            </div>
+            <p class="music-text text-white">DRUM</p>
+          </div>
+        </div>
+      </section>
+      <section class="rent">
+        <div class="rent-container">
+          <!-- <img src="images/rent-girl.png" alt="rent girl" class="rent-img" /> -->
+
+          <video
+            class="rent-video"
+            controls
+            autoplay
+            loop
+            muted
+            width="508"
+            height="648"
+          >
+            <source src="./images/video4.mp4" type="video/mp4" />
+            Ваш браузер не поддерживает видео.
+          </video>
+
+          <div class="rent-box">
+            <div class="rent-line"></div>
+            <h2 class="rent-title text-white">Rehearsal Space for Rent</h2>
+            <ul class="rent-list">
+              <li class="rent-item">
+                <div class="listCircle"></div>
+                <p class="listText text-white">For Bands Rehearsal</p>
+              </li>
+              <li class="rent-item">
+                <div class="listCircle"></div>
+                <p class="listText text-white">
+                  Full studio rental for private Events
+                </p>
+              </li>
+              <li class="rent-item">
+                <div class="listCircle"></div>
+                <p class="listText text-white">For Solo Rehearsal</p>
+              </li>
+            </ul>
+            <div class="rent-card-container">
+              <div class="rent-text-box">
+                <p class="text-black rent-text">15 €</p>
+                <p class="text-black rent-text">1-3 people</p>
+                <p class="text-black rent-text">60 min</p>
+              </div>
+              <div class="rent-text-box">
+                <p class="text-black rent-text">5 € / per person</p>
+                <p class="text-black rent-text">4 - 8 people</p>
+                <p class="text-black rent-text">60 min</p>
+              </div>
+            </div>
+            <button class="rent-btn text-white">BOOK A SLOT</button>
+          </div>
+        </div>
+      </section>
+      <section class="price" id="price">
+        <h2 class="price-title text-black">PRICE</h2>
+        <ul class="price-list">
+          <li class="price-item">
+            <p class="price-text text-white">Individual Session</p>
+            <p class="price-subText text-white">25€ / 35€ / 40€</p>
+            <div class="price-time-box">
+              <p class="price-time text-white">(30min)</p>
+              <p class="price-time text-white">(45min)</p>
+              <p class="price-time text-white">(60min)</p>
+            </div>
+            <p class="price-desc text-white">
+              • Individual session according to your scheaule
+            </p>
+            <button class="price-btn text-white">BOOK</button>
+          </li>
+          <li class="price-item">
+            <p class="price-text text-white">Course packege "Hobby"</p>
+            <p class="price-subText text-white">90€ / 129€ / 149€</p>
+            <div class="price-time-box">
+              <p class="price-time text-white">(30min)</p>
+              <p class="price-time text-white">(45min)</p>
+              <p class="price-time text-white">(60min)</p>
+            </div>
+            <p class="price-desc text-white">• 4 Sessions 10% Discount</p>
+            <button class="price-btn text-white">BOOK</button>
+          </li>
+          <li class="price-item">
+            <p class="price-text text-white">Course packege "PRO"</p>
+            <p class="price-subText text-white">170€ / 239€ / 272€</p>
+            <div class="price-time-box">
+              <p class="price-time text-white">(30min)</p>
+              <p class="price-time text-white">(45min)</p>
+              <p class="price-time text-white">(60min)</p>
+            </div>
+            <p class="price-desc text-white">• 8 Sessions 15% Discount</p>
+            <button class="price-btn text-white">BOOK</button>
+          </li>
+          <li class="price-item">
+            <p class="price-text text-white">Course packege "Maestro"</p>
+            <p class="price-subText text-white">240€ / 339€ / 384€</p>
+            <div class="price-time-box">
+              <p class="price-time text-white">(30min)</p>
+              <p class="price-time text-white">(45min)</p>
+              <p class="price-time text-white">(60min)</p>
+            </div>
+            <p class="price-desc text-white">• 12 Sessions 20% Discount</p>
+            <button class="price-btn text-white">BOOK</button>
+          </li>
+        </ul>
+      </section>
+      <section class="certificate">
+        <div class="ceriticate-container">
+          <img
+            src="./images/gift-certificate.png"
+            alt="gift certificate"
+            class="certificate-img"
+          />
+          <button class="certificate-bnt text-white">BOOK</button>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts-container">
+          <h5 class="contacts-header">Get In Touch</h5>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <svg
+                width="23"
+                height="23"
+                viewBox="0 0 23 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.8483 12.3517C17.737 12.2402 17.6047 12.1517 17.4592 12.0913C17.3136 12.031 17.1575 11.9999 16.9999 11.9999C16.8423 11.9999 16.6863 12.031 16.5407 12.0913C16.3951 12.1517 16.2629 12.2402 16.1515 12.3517L14.2388 14.2645C13.352 14.0005 11.6972 13.4005 10.6484 12.3517C9.59961 11.3029 8.99962 9.64814 8.73562 8.76135L10.6484 6.84857C10.7599 6.73723 10.8484 6.60498 10.9088 6.45941C10.9692 6.31383 11.0002 6.15778 11.0002 6.00018C11.0002 5.84258 10.9692 5.68653 10.9088 5.54095C10.8484 5.39538 10.7599 5.26313 10.6484 5.15179L5.84845 0.351838C5.73711 0.240304 5.60486 0.151819 5.45929 0.0914472C5.31371 0.031075 5.15766 0 5.00006 0C4.84246 0 4.68641 0.031075 4.54083 0.0914472C4.39526 0.151819 4.26301 0.240304 4.15167 0.351838L0.897301 3.60621C0.441305 4.0622 0.184508 4.68859 0.194108 5.32819C0.221707 7.03697 0.674103 12.9721 5.35166 17.6497C10.0292 22.3272 15.9644 22.7784 17.6743 22.8072H17.7079C18.3415 22.8072 18.9403 22.5576 19.3939 22.104L22.6483 18.8497C22.7598 18.7383 22.8483 18.6061 22.9087 18.4605C22.969 18.3149 23.0001 18.1589 23.0001 18.0013C23.0001 17.8437 22.969 17.6876 22.9087 17.542C22.8483 17.3965 22.7598 17.2642 22.6483 17.1529L17.8483 12.3517ZM17.6959 20.406C16.1983 20.3808 11.0744 19.9788 7.04844 15.9517C3.00928 11.9125 2.61808 6.77057 2.59408 5.30299L5.00006 2.89701L8.10323 6.00018L6.55164 7.55177C6.4106 7.6927 6.3069 7.86657 6.24991 8.05764C6.19292 8.24872 6.18445 8.45098 6.22525 8.64615C6.25405 8.78415 6.95844 12.0565 8.95042 14.0485C10.9424 16.0405 14.2148 16.7449 14.3528 16.7737C14.5478 16.8156 14.7503 16.8078 14.9415 16.751C15.1328 16.6942 15.3067 16.5901 15.4472 16.4485L16.9999 14.8969L20.1031 18.0001L17.6959 20.406Z"
+                  fill="#D23D3E"
+                />
+              </svg>
+              <a href="tel:+384805550103" class="contacts-link"
+                >(480) 555-0103</a
+              >
+            </li>
+            <li class="contacts-item">
+              <svg
+                width="24"
+                height="30"
+                viewBox="0 0 24 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_299_367)">
+                  <path
+                    d="M12 18.0001C15.3089 18.0001 17.9999 15.3091 17.9999 12.0001C17.9999 8.69117 15.3089 6.0002 12 6.0002C8.69101 6.0002 6.00004 8.69117 6.00004 12.0001C6.00004 15.3091 8.69101 18.0001 12 18.0001ZM12 9.00016C13.6545 9.00016 14.9999 10.3456 14.9999 12.0001C14.9999 13.6546 13.6545 15.0001 12 15.0001C10.3455 15.0001 9.00001 13.6546 9.00001 12.0001C9.00001 10.3456 10.3455 9.00016 12 9.00016ZM11.13 29.7209C11.3839 29.9022 11.688 29.9997 12 29.9997C12.312 29.9997 12.6161 29.9022 12.87 29.7209C13.326 29.3984 24.0434 21.66 23.9999 12.0001C23.9999 5.38369 18.6164 0.000244141 12 0.000244141C5.38357 0.000244141 0.000132055 5.38369 0.000132055 11.9926C-0.0433675 21.66 10.674 29.3984 11.13 29.7209ZM12 3.00021C16.9634 3.00021 20.9999 7.03667 20.9999 12.0076C21.0314 18.6645 14.418 24.642 12 26.6025C9.58353 24.6405 2.9686 18.6615 3.0001 12.0001C3.0001 7.03667 7.03655 3.00021 12 3.00021ZM12 18.0001C15.3089 18.0001 17.9999 15.3091 17.9999 12.0001C17.9999 8.69117 15.3089 6.0002 12 6.0002C8.69101 6.0002 6.00004 8.69117 6.00004 12.0001C6.00004 15.3091 8.69101 18.0001 12 18.0001ZM12 9.00016C13.6545 9.00016 14.9999 10.3456 14.9999 12.0001C14.9999 13.6546 13.6545 15.0001 12 15.0001C10.3455 15.0001 9.00001 13.6546 9.00001 12.0001C9.00001 10.3456 10.3455 9.00016 12 9.00016ZM11.13 29.7209C11.3839 29.9022 11.688 29.9997 12 29.9997C12.312 29.9997 12.6161 29.9022 12.87 29.7209C13.326 29.3984 24.0434 21.66 23.9999 12.0001C23.9999 5.38369 18.6164 0.000244141 12 0.000244141C5.38357 0.000244141 0.000132055 5.38369 0.000132055 11.9926C-0.0433675 21.66 10.674 29.3984 11.13 29.7209ZM12 3.00021C16.9634 3.00021 20.9999 7.03667 20.9999 12.0076C21.0314 18.6645 14.418 24.642 12 26.6025C9.58353 24.6405 2.9686 18.6615 3.0001 12.0001C3.0001 7.03667 7.03655 3.00021 12 3.00021Z"
+                    fill="#D23D3E"
+                  />
+                  <path
+                    d="M12 18.0001C15.3089 18.0001 17.9999 15.3091 17.9999 12.0001C17.9999 8.69117 15.3089 6.0002 12 6.0002C8.69101 6.0002 6.00004 8.69117 6.00004 12.0001C6.00004 15.3091 8.69101 18.0001 12 18.0001ZM12 9.00016C13.6545 9.00016 14.9999 10.3456 14.9999 12.0001C14.9999 13.6546 13.6545 15.0001 12 15.0001C10.3455 15.0001 9.00001 13.6546 9.00001 12.0001C9.00001 10.3456 10.3455 9.00016 12 9.00016ZM11.13 29.7209C11.3839 29.9022 11.688 29.9997 12 29.9997C12.312 29.9997 12.6161 29.9022 12.87 29.7209C13.326 29.3984 24.0434 21.66 23.9999 12.0001C23.9999 5.38369 18.6164 0.000244141 12 0.000244141C5.38357 0.000244141 0.000132055 5.38369 0.000132055 11.9926C-0.0433675 21.66 10.674 29.3984 11.13 29.7209ZM12 3.00021C16.9634 3.00021 20.9999 7.03667 20.9999 12.0076C21.0314 18.6645 14.418 24.642 12 26.6025C9.58353 24.6405 2.9686 18.6615 3.0001 12.0001C3.0001 7.03667 7.03655 3.00021 12 3.00021ZM12 18.0001C15.3089 18.0001 17.9999 15.3091 17.9999 12.0001C17.9999 8.69117 15.3089 6.0002 12 6.0002C8.69101 6.0002 6.00004 8.69117 6.00004 12.0001C6.00004 15.3091 8.69101 18.0001 12 18.0001ZM12 9.00016C13.6545 9.00016 14.9999 10.3456 14.9999 12.0001C14.9999 13.6546 13.6545 15.0001 12 15.0001C10.3455 15.0001 9.00001 13.6546 9.00001 12.0001C9.00001 10.3456 10.3455 9.00016 12 9.00016ZM11.13 29.7209C11.3839 29.9022 11.688 29.9997 12 29.9997C12.312 29.9997 12.6161 29.9022 12.87 29.7209C13.326 29.3984 24.0434 21.66 23.9999 12.0001C23.9999 5.38369 18.6164 0.000244141 12 0.000244141C5.38357 0.000244141 0.000132055 5.38369 0.000132055 11.9926C-0.0433675 21.66 10.674 29.3984 11.13 29.7209ZM12 3.00021C16.9634 3.00021 20.9999 7.03667 20.9999 12.0076C21.0314 18.6645 14.418 24.642 12 26.6025C9.58353 24.6405 2.9686 18.6615 3.0001 12.0001C3.0001 7.03667 7.03655 3.00021 12 3.00021Z"
+                    fill="#D23D3E"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_299_367">
+                    <rect
+                      width="24"
+                      height="29.9997"
+                      fill="white"
+                      transform="translate(0 0.000244141)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <a
+                href="https://www.google.com/maps?q=Manchester+Washington Ave."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contacts-link"
+                >4517 Washington Ave. Manchester, Kentucky 39495</a
+              >
+            </li>
+            <li class="contacts-item">
+              <svg
+                width="24"
+                height="26"
+                viewBox="0 0 24 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_299_371)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M-0.91875 5.71691C-0.75492 4.98065 -0.352185 4.32327 0.223498 3.85242C0.79918 3.38158 1.51369 3.12519 2.25 3.12524H21.75C22.4863 3.12519 23.2008 3.38158 23.7765 3.85242C24.3522 4.32327 24.7549 4.98065 24.9187 5.71691L12 13.8152L-0.91875 5.71691ZM-1 7.62024V19.4602L8.42988 13.5302L-1 7.62024ZM9.98663 14.5086L-0.689625 21.2202C-0.425844 21.7907 -0.00951922 22.2726 0.510895 22.6099C1.03131 22.9471 1.63441 23.1258 2.25 23.1252H21.75C22.3655 23.1254 22.9684 22.9463 23.4885 22.6087C24.0086 22.2712 24.4246 21.7891 24.688 21.2186L14.0118 14.5069L12 15.7686L9.98663 14.5069V14.5086ZM15.5701 13.5319L25 19.4602V7.62024L15.5701 13.5302V13.5319Z"
+                    fill="#D23D3E"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_299_371">
+                    <rect width="24" height="26" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <a href="mailto:debra.holt@example.com" class="contacts-link"
+                >debra.holt@example.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-container">
+          <h6 class="footer-text">
+            Made With Love By Figmaland All Right Reserved
+          </h6>
+          <div class="social-box">
+            <a
+              href="https://www.facebook.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_299_381)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M23.5 11.5704C23.5 5.1801 18.3515 0 12.0014 0C5.64848 0.00143732 0.5 5.1801 0.5 11.5719C0.5 17.3456 4.7056 22.1319 10.2019 23V14.9151H7.28415V11.5719H10.2048V9.02062C10.2048 6.12155 11.9224 4.52037 14.5484 4.52037C15.8075 4.52037 17.1226 4.74603 17.1226 4.74603V7.59193H15.6724C14.2451 7.59193 13.7995 8.4845 13.7995 9.40008V11.5704H16.9875L16.4787 14.9136H13.7981V22.9986C19.2944 22.1304 23.5 17.3441 23.5 11.5704Z"
+                    fill="#D23D3E"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_299_381">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.5 1C9.51488 1 9.1395 1.01375 7.96663 1.066C6.79375 1.121 5.99487 1.30525 5.295 1.5775C4.56088 1.85363 3.89593 2.28676 3.34663 2.84663C2.7871 3.39621 2.35402 4.06108 2.0775 4.795C1.80525 5.4935 1.61963 6.29375 1.566 7.4625C1.51375 8.63812 1.5 9.01213 1.5 12.0014C1.5 14.9879 1.51375 15.3619 1.566 16.5347C1.621 17.7062 1.80525 18.5051 2.0775 19.205C2.35938 19.9282 2.73475 20.5415 3.34663 21.1534C3.95713 21.7652 4.57037 22.142 5.29363 22.4225C5.99487 22.6947 6.79238 22.8804 7.96388 22.934C9.13813 22.9862 9.51213 23 12.5 23C15.4879 23 15.8605 22.9862 17.0347 22.934C18.2049 22.879 19.0065 22.6947 19.7064 22.4225C20.44 22.1462 21.1045 21.7131 21.6534 21.1534C22.2652 20.5415 22.6406 19.9282 22.9225 19.205C23.1934 18.5051 23.379 17.7062 23.434 16.5347C23.4862 15.3619 23.5 14.9879 23.5 12C23.5 9.01213 23.4862 8.63813 23.434 7.46388C23.379 6.29375 23.1934 5.4935 22.9225 4.795C22.646 4.06106 22.2129 3.39618 21.6534 2.84663C21.1042 2.28655 20.4392 1.85339 19.705 1.5775C19.0037 1.30525 18.2035 1.11963 17.0334 1.066C15.8591 1.01375 15.4865 1 12.4973 1H12.5014H12.5ZM11.5141 2.98275H12.5014C15.4384 2.98275 15.7862 2.99238 16.9454 3.046C18.0179 3.09413 18.6009 3.27425 18.9886 3.42412C19.5015 3.6235 19.8686 3.86275 20.2536 4.24775C20.6386 4.63275 20.8765 4.9985 21.0759 5.51275C21.2271 5.89913 21.4059 6.48213 21.454 7.55463C21.5076 8.71375 21.5186 9.06163 21.5186 11.9973C21.5186 14.9329 21.5076 15.2821 21.454 16.4412C21.4059 17.5138 21.2258 18.0954 21.0759 18.4831C20.8995 18.9607 20.618 19.3926 20.2522 19.7467C19.8672 20.1318 19.5015 20.3696 18.9873 20.569C18.6023 20.7203 18.0192 20.899 16.9454 20.9485C15.7862 21.0007 15.4384 21.0131 12.5014 21.0131C9.56437 21.0131 9.21513 21.0007 8.056 20.9485C6.9835 20.899 6.40188 20.7203 6.01412 20.569C5.53631 20.3929 5.10405 20.1119 4.74913 19.7467C4.38303 19.392 4.10112 18.9598 3.92412 18.4818C3.77425 18.0954 3.59413 17.5124 3.546 16.4399C3.49375 15.2807 3.48275 14.9329 3.48275 11.9945C3.48275 9.0575 3.49375 8.711 3.546 7.55187C3.5955 6.47937 3.77425 5.89638 3.9255 5.50863C4.12488 4.99575 4.36413 4.62862 4.74913 4.24362C5.13412 3.85862 5.49987 3.62075 6.01412 3.42138C6.40188 3.27012 6.9835 3.09138 8.056 3.04188C9.07075 2.99513 9.464 2.98137 11.5141 2.98V2.98275ZM18.3726 4.80875C18.1993 4.80875 18.0276 4.84289 17.8675 4.90923C17.7073 4.97557 17.5618 5.0728 17.4392 5.19537C17.3167 5.31794 17.2194 5.46346 17.1531 5.62361C17.0868 5.78376 17.0526 5.9554 17.0526 6.12875C17.0526 6.30209 17.0868 6.47374 17.1531 6.63389C17.2194 6.79404 17.3167 6.93956 17.4392 7.06213C17.5618 7.1847 17.7073 7.28193 17.8675 7.34827C18.0276 7.41461 18.1993 7.44875 18.3726 7.44875C18.7227 7.44875 19.0585 7.30968 19.306 7.06213C19.5536 6.81458 19.6926 6.47884 19.6926 6.12875C19.6926 5.77866 19.5536 5.44292 19.306 5.19537C19.0585 4.94782 18.7227 4.80875 18.3726 4.80875ZM12.5014 6.3515C11.7521 6.33981 11.008 6.47729 10.3123 6.75594C9.61671 7.0346 8.98346 7.44885 8.44946 7.97458C7.91546 8.50032 7.49138 9.12703 7.20191 9.81823C6.91244 10.5094 6.76336 11.2513 6.76336 12.0007C6.76336 12.7501 6.91244 13.4919 7.20191 14.1831C7.49138 14.8743 7.91546 15.5011 8.44946 16.0268C8.98346 16.5525 9.61671 16.9668 10.3123 17.2454C11.008 17.5241 11.7521 17.6616 12.5014 17.6499C13.9844 17.6267 15.3988 17.0214 16.4393 15.9645C17.4799 14.9076 18.0631 13.4839 18.0631 12.0007C18.0631 10.5175 17.4799 9.09382 16.4393 8.03691C15.3988 6.97999 13.9844 6.37464 12.5014 6.3515ZM12.5014 8.33288C13.474 8.33288 14.4067 8.71923 15.0944 9.40695C15.7821 10.0947 16.1685 11.0274 16.1685 12C16.1685 12.9726 15.7821 13.9053 15.0944 14.593C14.4067 15.2808 13.474 15.6671 12.5014 15.6671C11.5288 15.6671 10.596 15.2808 9.90833 14.593C9.22061 13.9053 8.83425 12.9726 8.83425 12C8.83425 11.0274 9.22061 10.0947 9.90833 9.40695C10.596 8.71923 11.5288 8.33288 12.5014 8.33288Z"
+                  fill="#D23D3E"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://x.com/"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.41075 19C16.713 19 21.2546 12.0731 21.2546 6.07669C21.2546 5.88285 21.2546 5.68625 21.2464 5.49241C22.1306 4.84789 22.8937 4.04993 23.5 3.13592C22.6741 3.50262 21.7988 3.7443 20.9026 3.85312C21.8466 3.28495 22.5536 2.391 22.8923 1.3374C22.0054 1.86647 21.0346 2.23787 20.0226 2.43534C19.3423 1.70572 18.4419 1.22237 17.4611 1.06016C16.4803 0.897946 15.4737 1.06592 14.5973 1.53807C13.7209 2.01023 13.0236 2.7602 12.6134 3.67182C12.2031 4.58345 12.1029 5.60585 12.3281 6.58066C10.5334 6.49005 8.77762 6.02057 7.17468 5.20269C5.57175 4.3848 4.15744 3.23678 3.0235 1.83307C2.44784 2.83421 2.27216 4.01843 2.53214 5.14526C2.79211 6.27209 3.46825 7.25705 4.42325 7.90013C3.70762 7.87565 3.00772 7.68215 2.38 7.33524V7.39754C2.38123 8.44631 2.74205 9.46247 3.40145 10.2743C4.06086 11.0861 4.9784 11.6438 5.999 11.853C5.61161 11.9605 5.21144 12.014 4.80963 12.0122C4.52635 12.0131 4.24365 11.9867 3.96537 11.9333C4.25383 12.8361 4.8155 13.6254 5.57171 14.1908C6.32793 14.7561 7.24081 15.0691 8.1825 15.0859C6.58276 16.3511 4.60668 17.0373 2.5725 17.034C2.21407 17.0355 1.85588 17.0147 1.5 16.9716C3.56458 18.297 5.96228 19.0008 8.41075 19Z"
+                  fill="#D23D3E"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <div class="burger burger-box hidden js-menu-container">
+      <button class="burger-close js-close-menu" type="button">x</button>
+
+      <ul class="burger-nav-list">
+        <li class="burger-nav-item">
+          <a href="#" class="burger-nav-link">Home</a>
+        </li>
+        <li class="burger-nav-item">
+          <a href="#music" class="burger-nav-link">Music sessions</a>
+        </li>
+        <li class="burger-nav-item">
+          <a href="#art" class="burger-nav-link">Art sessions</a>
+        </li>
+        <li class="burger-nav-item">
+          <a href="#price" class="burger-nav-link">Pricing</a>
+        </li>
+      </ul>
+
+      <div class="burger-contacts">
+        <ul class="burger-contacts-list">
+          <li class="burger-contacts">
+            <a class="burger-link" href="tel:+384805550103"
+              >Tel: (480) 555-0103</a
+            >
+          </li>
+          <li class="burger-contacts">
+            <a
+              href="https://www.google.com/maps?q=Manchester+Washington Ave."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="burger-link"
+              >Adress: 4517 Washington Ave. Manchester, Kentucky 39495</a
+            >
+          </li>
+          <li class="burger-contacts">
+            <a class="burger-link" href="mailto:debra.holt@example.com"
+              >e-mail: debra.holt@example.com</a
+            >
+          </li>
+        </ul>
+
+        <div class="buger-social-box">
+          <a
+            href="https://www.facebook.com/"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_299_381)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.5 11.5704C23.5 5.1801 18.3515 0 12.0014 0C5.64848 0.00143732 0.5 5.1801 0.5 11.5719C0.5 17.3456 4.7056 22.1319 10.2019 23V14.9151H7.28415V11.5719H10.2048V9.02062C10.2048 6.12155 11.9224 4.52037 14.5484 4.52037C15.8075 4.52037 17.1226 4.74603 17.1226 4.74603V7.59193H15.6724C14.2451 7.59193 13.7995 8.4845 13.7995 9.40008V11.5704H16.9875L16.4787 14.9136H13.7981V22.9986C19.2944 22.1304 23.5 17.3441 23.5 11.5704Z"
+                  fill="#D23D3E"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_299_381">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.5 1C9.51488 1 9.1395 1.01375 7.96663 1.066C6.79375 1.121 5.99487 1.30525 5.295 1.5775C4.56088 1.85363 3.89593 2.28676 3.34663 2.84663C2.7871 3.39621 2.35402 4.06108 2.0775 4.795C1.80525 5.4935 1.61963 6.29375 1.566 7.4625C1.51375 8.63812 1.5 9.01213 1.5 12.0014C1.5 14.9879 1.51375 15.3619 1.566 16.5347C1.621 17.7062 1.80525 18.5051 2.0775 19.205C2.35938 19.9282 2.73475 20.5415 3.34663 21.1534C3.95713 21.7652 4.57037 22.142 5.29363 22.4225C5.99487 22.6947 6.79238 22.8804 7.96388 22.934C9.13813 22.9862 9.51213 23 12.5 23C15.4879 23 15.8605 22.9862 17.0347 22.934C18.2049 22.879 19.0065 22.6947 19.7064 22.4225C20.44 22.1462 21.1045 21.7131 21.6534 21.1534C22.2652 20.5415 22.6406 19.9282 22.9225 19.205C23.1934 18.5051 23.379 17.7062 23.434 16.5347C23.4862 15.3619 23.5 14.9879 23.5 12C23.5 9.01213 23.4862 8.63813 23.434 7.46388C23.379 6.29375 23.1934 5.4935 22.9225 4.795C22.646 4.06106 22.2129 3.39618 21.6534 2.84663C21.1042 2.28655 20.4392 1.85339 19.705 1.5775C19.0037 1.30525 18.2035 1.11963 17.0334 1.066C15.8591 1.01375 15.4865 1 12.4973 1H12.5014H12.5ZM11.5141 2.98275H12.5014C15.4384 2.98275 15.7862 2.99238 16.9454 3.046C18.0179 3.09413 18.6009 3.27425 18.9886 3.42412C19.5015 3.6235 19.8686 3.86275 20.2536 4.24775C20.6386 4.63275 20.8765 4.9985 21.0759 5.51275C21.2271 5.89913 21.4059 6.48213 21.454 7.55463C21.5076 8.71375 21.5186 9.06163 21.5186 11.9973C21.5186 14.9329 21.5076 15.2821 21.454 16.4412C21.4059 17.5138 21.2258 18.0954 21.0759 18.4831C20.8995 18.9607 20.618 19.3926 20.2522 19.7467C19.8672 20.1318 19.5015 20.3696 18.9873 20.569C18.6023 20.7203 18.0192 20.899 16.9454 20.9485C15.7862 21.0007 15.4384 21.0131 12.5014 21.0131C9.56437 21.0131 9.21513 21.0007 8.056 20.9485C6.9835 20.899 6.40188 20.7203 6.01412 20.569C5.53631 20.3929 5.10405 20.1119 4.74913 19.7467C4.38303 19.392 4.10112 18.9598 3.92412 18.4818C3.77425 18.0954 3.59413 17.5124 3.546 16.4399C3.49375 15.2807 3.48275 14.9329 3.48275 11.9945C3.48275 9.0575 3.49375 8.711 3.546 7.55187C3.5955 6.47937 3.77425 5.89638 3.9255 5.50863C4.12488 4.99575 4.36413 4.62862 4.74913 4.24362C5.13412 3.85862 5.49987 3.62075 6.01412 3.42138C6.40188 3.27012 6.9835 3.09138 8.056 3.04188C9.07075 2.99513 9.464 2.98137 11.5141 2.98V2.98275ZM18.3726 4.80875C18.1993 4.80875 18.0276 4.84289 17.8675 4.90923C17.7073 4.97557 17.5618 5.0728 17.4392 5.19537C17.3167 5.31794 17.2194 5.46346 17.1531 5.62361C17.0868 5.78376 17.0526 5.9554 17.0526 6.12875C17.0526 6.30209 17.0868 6.47374 17.1531 6.63389C17.2194 6.79404 17.3167 6.93956 17.4392 7.06213C17.5618 7.1847 17.7073 7.28193 17.8675 7.34827C18.0276 7.41461 18.1993 7.44875 18.3726 7.44875C18.7227 7.44875 19.0585 7.30968 19.306 7.06213C19.5536 6.81458 19.6926 6.47884 19.6926 6.12875C19.6926 5.77866 19.5536 5.44292 19.306 5.19537C19.0585 4.94782 18.7227 4.80875 18.3726 4.80875ZM12.5014 6.3515C11.7521 6.33981 11.008 6.47729 10.3123 6.75594C9.61671 7.0346 8.98346 7.44885 8.44946 7.97458C7.91546 8.50032 7.49138 9.12703 7.20191 9.81823C6.91244 10.5094 6.76336 11.2513 6.76336 12.0007C6.76336 12.7501 6.91244 13.4919 7.20191 14.1831C7.49138 14.8743 7.91546 15.5011 8.44946 16.0268C8.98346 16.5525 9.61671 16.9668 10.3123 17.2454C11.008 17.5241 11.7521 17.6616 12.5014 17.6499C13.9844 17.6267 15.3988 17.0214 16.4393 15.9645C17.4799 14.9076 18.0631 13.4839 18.0631 12.0007C18.0631 10.5175 17.4799 9.09382 16.4393 8.03691C15.3988 6.97999 13.9844 6.37464 12.5014 6.3515ZM12.5014 8.33288C13.474 8.33288 14.4067 8.71923 15.0944 9.40695C15.7821 10.0947 16.1685 11.0274 16.1685 12C16.1685 12.9726 15.7821 13.9053 15.0944 14.593C14.4067 15.2808 13.474 15.6671 12.5014 15.6671C11.5288 15.6671 10.596 15.2808 9.90833 14.593C9.22061 13.9053 8.83425 12.9726 8.83425 12C8.83425 11.0274 9.22061 10.0947 9.90833 9.40695C10.596 8.71923 11.5288 8.33288 12.5014 8.33288Z"
+                fill="#D23D3E"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://x.com/"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              width="24"
+              height="20"
+              viewBox="0 0 24 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.41075 19C16.713 19 21.2546 12.0731 21.2546 6.07669C21.2546 5.88285 21.2546 5.68625 21.2464 5.49241C22.1306 4.84789 22.8937 4.04993 23.5 3.13592C22.6741 3.50262 21.7988 3.7443 20.9026 3.85312C21.8466 3.28495 22.5536 2.391 22.8923 1.3374C22.0054 1.86647 21.0346 2.23787 20.0226 2.43534C19.3423 1.70572 18.4419 1.22237 17.4611 1.06016C16.4803 0.897946 15.4737 1.06592 14.5973 1.53807C13.7209 2.01023 13.0236 2.7602 12.6134 3.67182C12.2031 4.58345 12.1029 5.60585 12.3281 6.58066C10.5334 6.49005 8.77762 6.02057 7.17468 5.20269C5.57175 4.3848 4.15744 3.23678 3.0235 1.83307C2.44784 2.83421 2.27216 4.01843 2.53214 5.14526C2.79211 6.27209 3.46825 7.25705 4.42325 7.90013C3.70762 7.87565 3.00772 7.68215 2.38 7.33524V7.39754C2.38123 8.44631 2.74205 9.46247 3.40145 10.2743C4.06086 11.0861 4.9784 11.6438 5.999 11.853C5.61161 11.9605 5.21144 12.014 4.80963 12.0122C4.52635 12.0131 4.24365 11.9867 3.96537 11.9333C4.25383 12.8361 4.8155 13.6254 5.57171 14.1908C6.32793 14.7561 7.24081 15.0691 8.1825 15.0859C6.58276 16.3511 4.60668 17.0373 2.5725 17.034C2.21407 17.0355 1.85588 17.0147 1.5 16.9716C3.56458 18.297 5.96228 19.0008 8.41075 19Z"
+                fill="#D23D3E"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/burger.js"></script>
+    <script src="./js/animation.js"></script>
+  </body>
+</html>
